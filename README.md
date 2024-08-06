@@ -2,6 +2,10 @@
 
 Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 season and provides various endpoints to retrieve information about races, drivers, and race results.
 
+You can use a web version to simply retrieve data here:
+https://www.rezrakf1.xyz
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
