@@ -5,8 +5,8 @@ from flask_basicauth import BasicAuth
 
 app = Flask(__name__)
 
-app.config['BASIC_AUTH_USERNAME'] = 'RezRak'
-app.config['BASIC_AUTH_PASSWORD'] = '23pavilion'
+app.config['BASIC_AUTH_USERNAME'] = 'admin'
+app.config['BASIC_AUTH_PASSWORD'] = 'password'
 basic_auth = BasicAuth()
 
 database = 'F1Database.db'
