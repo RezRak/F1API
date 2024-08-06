@@ -7,8 +7,7 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
 - [Authentication](#authentication)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Getting Started
 
