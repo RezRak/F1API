@@ -94,6 +94,11 @@ Retrieve the points for all drivers after a specific race in the specified seaso
 GET /api/season/<year>/points-after-race/int:race_id
 ```
 
+## Authentication
+The API uses Basic Authentication for endpoints that modify data. Use the following credentials or choose your own:
+
+    Username: admin   
+    Password: password
 
 
    
