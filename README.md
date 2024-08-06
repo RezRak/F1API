@@ -49,8 +49,9 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
 
 ## API Endpoints
 
-
+```
 GET /api/season/<year>
+```
 Retrieve details for the specified season year.
 
 POST /api/season/<year>/race
