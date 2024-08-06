@@ -26,5 +26,11 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
    git clone https://github.com/RezRak/F1API.git
    cd F1API
 
+2. Create a virtual environment and activate it:
+
+      python3 -m venv venv
+      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
 
 
