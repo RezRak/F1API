@@ -74,18 +74,26 @@ Modify details of a specific driver in the specified season year. Authentication
 PUT /api/season/<year>/drivers/<driver_name>
 ```
 
-
-DELETE /api/season/<year>/race/<race_name>
 Delete a specific race in the specified season year. Authentication required.
+```
+DELETE /api/season/<year>/race/<race_name>
+```
 
-DELETE /api/season/<year>/drivers/<driver_name>
 Delete a specific driver in the specified season year. Authentication required.
+```
+DELETE /api/season/<year>/drivers/<driver_name>
+```
 
-POST /api/season/<year>/race/int:race_id
 Add race results for a specific race in the specified season year. Authentication required.
+```
+POST /api/season/<year>/race/int:race_id
+```
 
-GET /api/season/<year>/points-after-race/int:race_id
 Retrieve the points for all drivers after a specific race in the specified season year.
+```
+GET /api/season/<year>/points-after-race/int:race_id
+```
+
 
 
    
