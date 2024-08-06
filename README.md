@@ -49,22 +49,31 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
 
 ## API Endpoints
 
+Retrieve details for the specified season year.
 ```
 GET /api/season/<year>
 ```
-Retrieve details for the specified season year.
 
-POST /api/season/<year>/race
 Add a new race to the specified season year. Authentication required.
+```
+POST /api/season/<year>/race
+```
 
-POST /api/season/<year>/drivers
 Add a new driver to the specified season year. Authentication required.
+```
+POST /api/season/<year>/drivers
+```
 
-PUT /api/season/<year>/race/<race_name>
 Modify details of a specific race in the specified season year. Authentication required.
+```
+PUT /api/season/<year>/race/<race_name>
+```
 
-PUT /api/season/<year>/drivers/<driver_name>
 Modify details of a specific driver in the specified season year. Authentication required.
+```
+PUT /api/season/<year>/drivers/<driver_name>
+```
+
 
 DELETE /api/season/<year>/race/<race_name>
 Delete a specific race in the specified season year. Authentication required.
