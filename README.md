@@ -34,8 +34,20 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
 
 3. Install the required packages:
 
-   '''
+   ```
    pip install -r requirements.txt
+
+4. Create and initialize the database:
+
+   ```
+   python createdatabase.py
+
+5. Run the application:
+
+   ```
+   python app.py
+
+
 
    
 
