@@ -15,7 +15,7 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
 
 - Python 3.11
 - Flask
-- SQLite3
+- SQLite3 (Included with Python)
 
 ### Installation
 
