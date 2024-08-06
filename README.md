@@ -37,15 +37,15 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
    ```
    pip install -r requirements.txt
 
-4. Create and initialize the database:
+4. Create and initialize the database (Optional. You can use the provided database to keep 2023 stats. Running this will overwrite and create a new database):
 
    ```
-   python createdatabase.py
+   python3 createdatabase.py
 
 5. Run the application:
 
    ```
-   python app.py
+   python3 app.py
 
 ## API Endpoints
 
