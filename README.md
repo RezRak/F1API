@@ -47,6 +47,35 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
    ```
    python app.py
 
+## API Endpoints
+
+
+GET /api/season/<year>
+Retrieve details for the specified season year.
+
+POST /api/season/<year>/race
+Add a new race to the specified season year. Authentication required.
+
+POST /api/season/<year>/drivers
+Add a new driver to the specified season year. Authentication required.
+
+PUT /api/season/<year>/race/<race_name>
+Modify details of a specific race in the specified season year. Authentication required.
+
+PUT /api/season/<year>/drivers/<driver_name>
+Modify details of a specific driver in the specified season year. Authentication required.
+
+DELETE /api/season/<year>/race/<race_name>
+Delete a specific race in the specified season year. Authentication required.
+
+DELETE /api/season/<year>/drivers/<driver_name>
+Delete a specific driver in the specified season year. Authentication required.
+
+POST /api/season/<year>/race/int:race_id
+Add race results for a specific race in the specified season year. Authentication required.
+
+GET /api/season/<year>/points-after-race/int:race_id
+Retrieve the points for all drivers after a specific race in the specified season year.
 
 
    
