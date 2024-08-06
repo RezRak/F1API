@@ -28,6 +28,7 @@ Welcome to the unofficial F1 API by RezRak! This API is updated for the 2023 sea
 
 2. Create a virtual environment and activate it:
 
+      ```
       python3 -m venv venv
       source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
